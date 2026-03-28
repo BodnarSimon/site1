@@ -1,0 +1,9 @@
+FROM mcr.microsoft.com/devcontainers/ruby:3.2
+
+# Telepítjük a GitHub Pages kompatibilis Jekyll-t
+RUN gem install bundler github-pages
+
+# Node kell a livereload-hoz
+RUN apt-get update && apt-get install -y nodejs npm && npm install -g livereload
+
+WORKDIR /workspaces
