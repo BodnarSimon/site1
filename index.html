@@ -1,16 +1,78 @@
 ---
 layout: default
-title: Villanyszerelő – Site 1
-colors: |
-    :root {
-        --primary: #0A84FF;
-        --secondary: #A3FF00;
-    }
+title: Elektromos Autó Töltők Telepítése
 ---
 
 <section class="ev-hero text-center">
     <div class="container">
-        <h1 class="display-4 fw-bold">Site 1 – Elektromos Töltők Telepítése</h1>
-        <p class="lead mt-3">Gyors és biztonságos telepítés.</p>
+        <h1 class="display-4 fw-bold">Elektromos Autó Töltők Telepítése</h1>
+        <p class="lead mt-3">
+            Gyors, biztonságos és szabványos töltőtelepítés otthonra és vállalkozásoknak.
+        </p>
+        <a href="#contact" class="btn btn-ev btn-lg mt-4">
+            Kérjen ajánlatot
+        </a>
+    </div>
+</section>
+
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 text-center">Szolgáltatásaink</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Otthoni töltők</h5>
+                        <p class="card-text">Falra szerelhető és állványos töltők telepítése, engedélyezése.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Vállalati töltők</h5>
+                        <p class="card-text">Többállásos töltőpontok kiépítése cégeknek és társasházaknak.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Gyorsszerviz</h5>
+                        <p class="card-text">Hibás töltők diagnosztikája és javítása rövid határidővel.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="mb-4 text-center">Kapcsolat</h2>
+
+        <form class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label for="name" class="form-label">Név</label>
+                <input type="text" class="form-control" id="name" placeholder="Adja meg a nevét" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email cím</label>
+                <input type="email" class="form-control" id="email" placeholder="Adja meg az email címét" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Üzenet</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Írja meg üzenetét" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-light">Küldés</button>
+        </form>
     </div>
 </section>
